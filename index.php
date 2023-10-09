@@ -17,7 +17,7 @@
                   <div id="" class="col-sm-12  "  style=" float: left;" >
                   <div id="Menu" class="col-sm-4  "   style=" float: left;" >
                      <p  class="dish">Menu</p></a>
-                   	 <a href="menu.php"  class=" food " ><img src="2.png" width="100%"  ></a>
+                   	 <a href="menu.php"  class=" food " ><img src="image/2.png" width="100%"  ></a>
 
                   </div>
                   <div id="Reservation" class="col-sm-4  "  style=" float: left;">
@@ -28,14 +28,14 @@
                   <div  id="About" class="col-sm-4  "  style=" float: left;" >
                    
                      <p class="dish">Records</p>
-                     <a href="all.php"  class=" food " >  <img src="4.png" width="100%"  class=" food " ></a>
+                     <a href="orders.php"  class=" food " >  <img src="4.png" width="100%"  class=" food " ></a>
                   </div>
                   </div>
                </div>
             </div>
          </div>
 
-         <?php include 'ft.php';?>
+         <?php include 'footer.php';?>
       </div>
    </body>
 </html>

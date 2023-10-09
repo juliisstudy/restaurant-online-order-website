@@ -11,7 +11,7 @@
                      <div id="Menu" class="col-sm-2"   style=" float: left;" >
                      </div>
                      <div id="Menu" class="col-sm-4 "   style=" float: left;" >
-                        <img src="7.png" width="100%"   >
+                        <img src="image/7.png" width="100%"   >
                      </div>
                      <div id="Menu" class="col-sm-6 "   style=" float: left; height:20%" >
                         <h2>Grilled Lamb Chops</h2>
@@ -47,7 +47,7 @@
                         </div>
                      </div>
                      <div id="" class=" col-sm-6 "  style=" float: left;top:5% "  >
-                        <div  class="detail"  collapsebar " data-toggle="collapse" data-target="#ingredients" ><strong>Ingredients</strong></div>
+                        <div  class="detail" data-toggle="collapse" data-target="#ingredients" ><strong>Ingredients</strong></div>
                         <div id="ingredients" class="collapse in"   >
                            <table class="table" style=" margin-top:30px;">
                               <tbody>
@@ -82,7 +82,7 @@
          </div>
       </div>
       </div>
-      <?php include 'ft.php';?>
+      <?php include 'footer.php';?>
       </div>
    </body>
 </html>

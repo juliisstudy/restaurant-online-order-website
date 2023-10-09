@@ -1,32 +1,33 @@
 <!DOCTYPE>
 <html>
    <?php include 'header.php';?>
-  <script >
-  	function checkinp(){
-  		    var Name = document.forms["myForm"]["Name"].value;
-   			 if (Name == "") {
-        		alert("Name is required");
-       			 return false;
-   			 }
-   			 
-   			 var phone = document.forms["myForm"]["phone"].value;
-			if (phone == "") {
-        		alert("phone is required");
-       			 return false;
-   			 }
-   			
-   			  var Address = document.forms["myForm"]["address"].value;
-			if (Address == "") {
-        		alert("Address is required");
-       			 return false;
-   			 }
-   			   var Card = document.forms["myForm"]["card"].value;
-			if (Card == "") {
-        		alert("Card is required");
-       			 return false;
-   			 } 
-   			 
-  	}
+   <script type="text/javascript">
+
+function checkinp() {
+    let Name = document.forms["myForm"]["Name"].value;
+    if (Name == "") {
+        alert("Name is required");
+        return false;
+    }
+
+    let phone = document.forms["myForm"]["phone"].value;
+    if (phone == "") {
+        alert("phone is required");
+        return false;
+    }
+
+    let Address = document.forms["myForm"]["address"].value;
+    if (Address == "") {
+        alert("Address is required");
+        return false;
+    }
+    let Card = document.forms["myForm"]["card"].value;
+    if (Card == "") {
+        alert("Card is required");
+        return false;
+    }
+
+}
   
   </script>
    <body>
@@ -78,7 +79,7 @@
          </div>
       </div>
       </div>
-      <?php include 'ft.php';?>
+      <?php include 'footer.php';?>
       </div>
    </body>
 </html>
