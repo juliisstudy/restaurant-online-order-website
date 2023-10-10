@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-   
       <?php include 'header.php';?>
    <body>
       <div data-role="page">
-		
 			<?php include 'nav.php';?>
          <div data-role="main" class="" >
             <div class="container-fluid">

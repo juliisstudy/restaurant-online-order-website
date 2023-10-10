@@ -47,11 +47,8 @@ function checkinp() {
                                <span></span>                       
                                                          
                               <label for="name" class="lab">  Phone Number: (10 digits)</label> <input type="text" name="phone" pattern="^\d{10}$" required class="form-control" style="width:50%" >                             
-                             
                               <label for="name" class="lab">  Order:</label> 
                               <label class="checkbox-inline"><input type="checkbox" name="check_list[]"  value="Lamb">Lamb Chops $20</label>
-                              
-
                               <label class="checkbox-inline"><input type="checkbox" name="check_list[]"  value="Chicken">Chicken $20</label>
                               <label class="checkbox-inline"><input type="checkbox" name="check_list[]"  value="Beef">Sichuan Beef $20</label>
                               <label class="checkbox-inline"><input type="checkbox" name="check_list[]"  value="Ice-cream">Ice-cream $20</label>
